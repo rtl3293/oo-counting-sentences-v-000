@@ -16,10 +16,7 @@ class String
 
   def count_sentences
     sentences = self.split(".")
-    sentences.delete(".")
-    #sentences = ["This, well, is a sentence.", "This is too!! And so is this, I think? Woo."]
-    sentences.each do |sentence|
-
+    #sentences = ["This, well, is a sentence.", "This is too!! And so is this, I think? Woo.""".""."]
     sentences.count
   end
 end
