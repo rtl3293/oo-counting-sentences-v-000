@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    sentences = self.split(".")
+    sentences = self.split(/\w+\W./)
     binding.pry
     #sentences = ["This, well, is a sentence.", "This is too!! And so is this, I think? Woo.""".""."]
     sentences.count
